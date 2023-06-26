@@ -19,3 +19,6 @@ input.search-bar:focus{
 div.footer-wrapper{
     background: var(--bs-tertiary-bg);
 }
+img.hero-image{
+    transform: rotate(4deg);
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+button.search-btn{
+    padding: 4px 1rem !important;
+    border-radius: var(--bs-border-radius);
+}
+input.search-bar{
+    box-shadow: none;
+}
+input.search-bar:focus{
+    border-color: grey;
+    box-shadow: none;
+}

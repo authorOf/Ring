@@ -13,7 +13,6 @@ input.search-bar{
     box-shadow: none;
 }
 input.search-bar:focus{
-    border-color: grey;
     box-shadow: none;
 }
 div.footer-wrapper{
@@ -21,4 +20,20 @@ div.footer-wrapper{
 }
 img.hero-image{
     transform: rotate(4deg);
+}
+.toggle{
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    bottom: 6px;
+    right: 6px;
+    cursor: pointer;
+}
+.toggle svg{
+    color: white;
+    width: 3rem;
+    height: 3rem;
+}
+.header-searchBar::placeholder{
+    color: gray;
 }

@@ -7,8 +7,14 @@
     <link rel="stylesheet" href="./style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="shortcut icon" href="./icon.svg" type="image/x-icon">
+    <script src="./script.js" defer></script>
   </head>
   <body>
+    <div class="toggle">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-low-fill" viewBox="0 0 16 16">
+        <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8.5 2.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm0 11a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm5-5a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm-11 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm9.743-4.036a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm-7.779 7.779a.5.5 0 1 1-.707-.707.5.5 0 0 1 .707.707zm7.072 0a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707zM3.757 4.464a.5.5 0 1 1 .707-.707.5.5 0 0 1-.707.707z"/>
+      </svg>
+    </div>
     <header class="p-3 text-bg-dark sticky-top">
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -27,7 +33,7 @@
           </ul>
   
           <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
-            <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+            <input type="search" class="form-control form-control-dark header-searchBar" style="border-color: rgb(98, 97, 97);" placeholder="Search..." aria-label="Search">
           </form>
   
           <div class="text-end">
@@ -40,13 +46,13 @@
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
-            <img src="https://getbootstrap.com/docs/5.3/examples/heroes/bootstrap-themes.png" class="d-block mx-lg-auto img-fluid hero-image" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            <img src="https://img.freepik.com/free-vector/abstract-brush-stroke-pattern_23-2148672580.jpg?w=740&t=st=1687798224~exp=1687798824~hmac=3c1ff7a01c6ac6ec6098d2a2e1e45881ee08c9ca2c72a7c8d9fe2856dd2751ca" class="d-block mx-lg-auto img-fluid hero-image" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
           </div>
           <div class="col-lg-6">
             <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Responsive left-aligned hero with image</h1>
             <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 search-btn">Primary</button>
+              <button type="button" class="btn  btn-warning btn-lg px-4 me-md-2 search-btn">Primary</button>
               <button type="button" class="btn btn-light btn-lg px-4 search-btn">Default</button>
             </div>
           </div>
@@ -57,7 +63,7 @@
           <div class="col d-flex flex-column align-items-start gap-2">
             <h2 class="fw-bold text-body-emphasis">Left-aligned title explaining these awesome features</h2>
             <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
-            <a href="#" class="btn btn-primary search-btn">Primary button</a>
+            <a href="#" class="btn  btn-warning search-btn">Primary button</a>
           </div>
     
           <div class="col">
@@ -86,7 +92,7 @@
         </div>
       </div>
       <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">Custom cards</h2>
+        <h2 class="pb-2 border-bottom">Previous Projects</h2>
     
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div class="col">
@@ -160,7 +166,7 @@
             This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a responsive <code>.col-*</code> class, and a customized call to action.
           </p>
           <div class="d-inline-flex gap-2 mb-5">
-            <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill search-btn" type="button">
+            <button class="d-inline-flex align-items-center btn  btn-warning btn-lg px-4 rounded-pill search-btn" type="button">
               Call to action
               <svg class="bi ms-2" width="24" height="24"><use xlink:href="#arrow-right-short"></use></svg>
             </button>
@@ -214,7 +220,7 @@
                   <div class="d-flex flex-column flex-sm-row w-100 gap-2">
                     <label for="newsletter1" class="visually-hidden">Email address</label>
                     <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-                    <button class="btn btn-primary" type="button">Subscribe</button>
+                    <button class="btn  btn-warning" type="button">Subscribe</button>
                   </div>
                 </form>
               </div>

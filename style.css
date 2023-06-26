@@ -6,6 +6,7 @@
 }
 button.search-btn{
     padding: 4px 1rem !important;
+    font-size: 1rem;
     border-radius: var(--bs-border-radius);
 }
 input.search-bar{

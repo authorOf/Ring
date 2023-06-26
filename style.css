@@ -16,3 +16,9 @@ input.search-bar:focus{
     border-color: grey;
     box-shadow: none;
 }
+div.footer-wrapper{
+    background: var(--bs-tertiary-bg);
+}
+img.hero-image{
+    transform: rotate(4deg);
+}
